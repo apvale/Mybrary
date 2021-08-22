@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
   res.render('authors/index')
 })
 
-// New author router
+// New Author Route
 router.get('/new', (req, res) => {
   res.render('authors/new', { author: new Author() })
 })
