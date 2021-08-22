@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "dev": "node -r dotenv/config .",
     "devStart": "nodemon server.js"
   },
   "keywords": [],
